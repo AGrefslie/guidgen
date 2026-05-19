@@ -1,0 +1,25 @@
+.DS_Store
+/.build
+/Packages
+xcuserdata/
+DerivedData/
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.netrc
+
+# Build artifacts
+build/
+
+# Claude Code / Ruflo / swarm tooling — local only
+.claude/
+.claude-flow/
+.swarm/
+ruvector.db
+CLAUDE.md
+FIXED.md
+open-project.sh
+agentdb.rvf
+agentdb.rvf.lock
+
+# Source PNG (copied into Assets.xcassets)
+assets/

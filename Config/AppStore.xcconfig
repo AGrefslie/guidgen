@@ -1,0 +1,13 @@
+// Use for Mac App Store builds.
+// Activate by selecting this xcconfig for the Release-AppStore configuration
+// in the GuidGen target (or set as base configuration for a new "AppStore" scheme).
+
+SWIFT_ACTIVE_COMPILATION_CONDITIONS = $(inherited) APP_STORE
+ENABLE_APP_SANDBOX = YES
+ENABLE_HARDENED_RUNTIME = YES
+CODE_SIGN_STYLE = Automatic
+PRODUCT_BUNDLE_IDENTIFIER = com.axelgrefslie.guidgen
+
+// MAS distribution
+PROVISIONING_PROFILE_SPECIFIER =
+CODE_SIGN_IDENTITY = Apple Distribution

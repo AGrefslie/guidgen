@@ -1,0 +1,8 @@
+// Use for direct distribution (Developer ID + notarization, outside App Store).
+// Keeps the synthetic-paste feature. No APP_STORE compilation flag.
+
+ENABLE_APP_SANDBOX = NO
+ENABLE_HARDENED_RUNTIME = YES
+CODE_SIGN_STYLE = Manual
+CODE_SIGN_IDENTITY = Developer ID Application
+PRODUCT_BUNDLE_IDENTIFIER = com.axelgrefslie.guidgen
