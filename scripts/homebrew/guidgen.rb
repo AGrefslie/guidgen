@@ -1,6 +1,6 @@
 cask "guidgen" do
-  version "1.0"
-  sha256 "bdf7dfae9a808b2e14a5f51b056f6a8507f61791f23a38cb80101586d3cdcfe0"
+  version "1.0.1"
+  sha256 "4330451fcfa2d6bc50fabd0f5f4188256beb5f175e4eb3bd7a6d08dc7e0cdd5c"
 
   url "https://github.com/AGrefslie/guidgen/releases/download/v#{version}/GuidGen-#{version}.dmg",
       verified: "github.com/AGrefslie/guidgen/"
@@ -13,7 +13,7 @@ cask "guidgen" do
     strategy :github_latest
   end
 
-  depends_on macos: ">= :tahoe"
+  depends_on macos: ">= :ventura"
 
   app "GuidGen.app"
 
