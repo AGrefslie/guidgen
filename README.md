@@ -6,9 +6,9 @@ Fast macOS GUID / UUID generator. Lives in your menu bar, pastes a new GUID into
 
 ## Features
 
-<div style="text-align: center;">
-<img src="img/guidgen-screenshot.png" alt="screenshot of GuidGen UI" width="300"/>
-</div>
+<p align="center">
+  <img src="img/guidgen-screenshot.png" alt="GuidGen screenshot" width="300"/>
+</p>
 
 - **Global hotkey** — press your shortcut from anywhere; a new GUID is generated and pasted into the focused application.
 - **Menu bar mode** — quick generate, recent list, format/version pickers without opening the window.
