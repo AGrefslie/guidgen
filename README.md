@@ -1,6 +1,6 @@
 # GuidGen
 
-Fast macOS GUID / UUID generator. Lives in your menu bar, pastes a new GUID into any focused app with a global keyboard shortcut.
+Fast macOS GUID / UUID generator application, that also lives in your menu bar, pastes a new GUID into any focused app with a global keyboard shortcut.
 
 [![Download](https://img.shields.io/github/v/release/AGrefslie/guidgen?label=Download&style=for-the-badge)](https://github.com/AGrefslie/guidgen/releases/latest)
 
